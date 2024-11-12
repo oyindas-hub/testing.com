@@ -1,0 +1,38 @@
+body, html{
+  height: 150%;
+  background-color: black;
+}
+
+.hero-image{
+  background-image: url(Burgers-images/burger-2.jpeg);
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.hero-text{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-button{
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: burlywood;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+
+.hero-button:hover{
+  background-color: black;
+  color: white;
+}
+

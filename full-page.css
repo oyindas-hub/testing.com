@@ -1,0 +1,35 @@
+body, html{
+  height: 100%;
+}
+
+.bg{
+  background-image: url(Burgers-images/burger-4.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(151, 47, 47);
+}
+
+.hero-button{
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: burlywood;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+
+.hero-button:hover{
+  background-color: black;
+  color: white;
+}
